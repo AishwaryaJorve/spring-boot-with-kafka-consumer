@@ -8,6 +8,7 @@ public class SpringBootWithKafkaConsumerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootWithKafkaConsumerApplication.class, args);
+		System.out.println("Consumer started");
 	}
 
 }
